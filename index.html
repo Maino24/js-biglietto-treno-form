@@ -11,70 +11,71 @@
 </head>
 <body class="bgBody" style="background-color: red;">
 
-    <h1 class="text-center">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    <h1 class="text-center text-white mt-2">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
 
-   <div class="container bgCard text-center">
+   <div class="container bgCard mt-2 text-center">
     <form action="" class="" style="background-color: white;">
-        <div class="d-flex justify-content-center">
-            <div>
+        <div class="d-flex mb-4 pt-2 justify-content-center">
+            <div class="me-4">
+                <h5>Nome Cognome</h5>
+                <input type="text" name="" id="inputName">
+            </div>
+            <div class="me-4">
                 <h5>Km da percorrere</h5>
                 <input type="text" name="" id="inputKm">
             </div>
-            <div>
+            <div class="me-4">
                 <h5>Fascia d'età</h5>
                 <input type="text" name="" id="inputAge">
             </div>
         </div>
 
 
-        <div class="d-flex justify-content-center">
-            <div>
+        <div class="d-flex pb-3 justify-content-center">
+            <div class="me-4">
                 <button onclick="esegui(); return false">Genera</button>
             </div>
             <div>
-                <button>Annulla</button>
+                <button onclick="functionAnnulla(); return false">Annulla</button>
             </div>
         </div>
     </form>
    </div>
+   <div>
+    <h2 class="text-center mt-5 text-white">IL TUO BIGLIETTO</h2>
+   </div>
    <div class="container" style="background-color: white;">
-    <table>
-        <table class="table">
+        <h4>DETTAGLIO PASSEGGERI</h4>
+        <div class="pb-2">
+        <table class="table border border-2 border-top-dark border-bottom-dark">
             <thead>
-              <tr>
-                <th scope="col"><h5>NOME PASSEGGERO</h5></th>
-                <th scope="col">Offerta</th>
-                <th scope="col">Carrozza</th>
-                <th scope="col">Codice CP</th>
-                <th scope="col">Costo biglietto</th>
+              <tr class="">
+                <th scope="col" class="border border-0 bg-secondary"><h5>NOME PASSEGGERO</h5></th>
+                <th scope="col" class="border border-0">Offerta</th>
+                <th scope="col" class="border border-0">Carrozza</th>
+                <th scope="col" class="border border-0">Codice CP</th>
+                <th scope="col" class="border border-0">Costo biglietto</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <th scope="row">Jon Snow</th>
-                <td></td>
-                <td></td>
-                <td></td>
+              <tr class="">
+                <th scope="row" class="border border-0 bg-secondary" id="outputName"></th>
+                <td class="border border-0"></td>
+                <td class="border border-0"></td>
+                <td class="border border-0"></td>
               </tr>
-              <tr>
-                <th scope="row"></th>
-                <td>Biglietto standard</td>
-                <td>5</td>
-                <td>92911</td>
-                <td id="output"></td>
+              <tr class="">
+                <th scope="row" class="border border-0 bg-secondary"></th>
+                <td class="border border-0">Biglietto standard</td>
+                <td class="border border-0">5</td>
+                <td class="border border-0">92911</td>
+                <td id="output" class="border border-0 "></td>
               </tr>
-              <tr>
-                <th></th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
+              
             </tbody>
           </table>
 
-    </table>
-
+    </div>
    </div>
 
  

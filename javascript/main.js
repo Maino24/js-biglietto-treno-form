@@ -2,11 +2,13 @@
 
 let input1 = document.getElementById(`inputKm`)
 let input2 = document.getElementById(`inputAge`)
+let input3 = document.getElementById(`inputName`)
 
 function esegui(){
 
 let Km = parseInt(input1.value);
 let Age = parseInt(input2.value);
+let Name = (input3.value);
 
 console.log(Km)
 console.log(Age)
@@ -36,13 +38,19 @@ if (Age < 18){
     console.log(finalPrice)
 }
 
-document.getElementById(`output`).innerHTML= `il costo del biglietto è : ${finalPrice}`
+document.getElementById(`output`).innerHTML= `${finalPrice}`
+document.getElementById(`outputName`).innerHTML= `${Name}`
+
+
 
 }
 
 
-let element = document.getElementsByClassName(`bgBody`);
-Element.style.background-color = `red`;
 
-let bgcard = document.getElementsByClassName(`bgCard`);
-element.style.background-color = `white`; 
+function functionName(){
+
+
+}
+
+
+ 
