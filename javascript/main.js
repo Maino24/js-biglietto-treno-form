@@ -39,3 +39,10 @@ if (Age < 18){
 document.getElementById(`output`).innerHTML= `il costo del biglietto è : ${finalPrice}`
 
 }
+
+
+let element = document.getElementsByClassName(`bgBody`);
+Element.style.background-color = `red`;
+
+let bgcard = document.getElementsByClassName(`bgCard`);
+element.style.background-color = `white`; 
