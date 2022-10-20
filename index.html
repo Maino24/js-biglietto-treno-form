@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
 </head>
-<body class="bgBody" style="background-color: red;">
+<body class="bgBody" style="background-color: #B91450;">
 
     <h1 class="text-center text-white mt-2">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
 
@@ -17,26 +17,36 @@
     <form action="" class="" style="background-color: white;">
         <div class="d-flex mb-4 pt-2 justify-content-center">
             <div class="me-4">
-                <h5>Nome Cognome</h5>
+                <h5 style="color: #D2678E;">Nome Cognome</h5>
                 <input type="text" name="" id="inputName">
             </div>
             <div class="me-4">
-                <h5>Km da percorrere</h5>
+                <h5 style="color: #D2678E;">Km da percorrere</h5>
                 <input type="text" name="" id="inputKm">
             </div>
             <div class="me-4">
-                <h5>Fascia d'età</h5>
+                <h5 style="color: #D2678E;">Fascia d'età</h5>
                 <input type="text" name="" id="inputAge">
+              <!--  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Maggiorenne</a></li>
+                      <li><a class="dropdown-item" href="#">Minorenne</a></li>
+                      <li><a class="dropdown-item" href="#">Over 65 anni</a></li>
+                    </ul>
+                  </div>-->
             </div>
         </div>
 
 
         <div class="d-flex pb-3 justify-content-center">
             <div class="me-4">
-                <button onclick="esegui(); return false">Genera</button>
+                <button onclick="esegui(); return false"><h5 style="color: #D2678E;">Genera</h5></button>
             </div>
             <div>
-                <button onclick="functionAnnulla(); return false">Annulla</button>
+                <button onclick="functionAnnulla(); return false"><h5 style="color: #D2678E;">Annulla</h5></button>
             </div>
         </div>
     </form>
