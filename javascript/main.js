@@ -46,11 +46,11 @@ document.getElementById(`outputName`).innerHTML= `${Name}`
 }
 
 
-
-function functionName(){
-
-
+function functionAnnulla(){
+    document.getElementsByClassName(`Annulla`).reset();
 }
+
+
 
 
  
