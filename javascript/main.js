@@ -1,9 +1,12 @@
-console.log(`ciao`)
+/*console.log(`ciao`)*/
+
+let input1 = document.getElementById(`inputKm`)
+let input2 = document.getElementById(`inputAge`)
 
 function esegui(){
 
-let Km = parseInt(document.getElementById(`inputKm`).value);
-let Age = parseInt(document.getElementById(`inputAge`).value);
+let Km = parseInt(input1.value);
+let Age = parseInt(input2.value);
 
 console.log(Km)
 console.log(Age)
