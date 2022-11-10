@@ -10,33 +10,106 @@
 
 </head>
 
+<!--    METODO UNO (non riuscito)-->
+<!--
+<body class="bgBody" style="background-color: #B91450">
 
+  <h1 class="text-center text-white mt-2">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
 
-<body>
+  <div class="container bgCard mt-2 text-center">
+    <form action="" class="" style="background-color: white;">
+        <div class="d-flex mb-4 pt-2 justify-content-center">
+            <div class="me-4">
+                <h5 style="color: #D2678E;">Nome Cognome</h5>
+                <input type="text" placeholder="nome utente" id="inputName">
+            </div>
+            <div class="me-4">
+                <h5 style="color: #D2678E;">Km da percorrere</h5>
+                <input type="text" placeholder="km" id="inputKm">
+            </div>
+            <div class="me-4">
+                <h5 style="color: #D2678E;">Fascia d'età</h5>
+                <select name="" id="inputEta">
+                  <option value=""></option>
+                  <option value="maggiorenne">Maggiorenne</option>
+                  <option value="minorenne">Minorenne</option>
+                  <option value="over65">Over 65</option>
+                </select>
+            
+            </div>
+        </div>
+-->
+<!-- npn discommentare
+  <div class="text-center">
+    <form action="">
+      <input type="text" placeholder="nome utente" id="inputName">
+      <input type="text" placeholder="km" id="inputKm">
+      <select name="" id="inputEta">
+        <option value=""></option>
+        <option value="maggiorenne">Maggiorenne</option>
+        <option value="minorenne">Minorenne</option>
+        <option value="over65">Over 65</option>
+      </select>
+-->
+<!--   
   
-  <form action="">
-    <input type="text" placeholder="nome utente" id="inputName">
-    <input type="text" placeholder="km" id="inputKm">
-    <select name="" id="inputEta">
-      <option value=""></option>
-      <option value="maggiorenne">Maggiorenne</option>
-      <option value="minorenne">Minorenne</option>
-      <option value="over65">Over 65</option>
-    </select>
+      <div class="d-flex pb-3 justify-content-center">
+        <div class="me-4">
+            <button id="btnInvio"><h5 style="color: #D2678E;">Invia dati</h5></button>
+        </div>
 
-    <button id="btnInvio">Invia dati</button>
-
+        <div>
+            <button class="Annulla" type="reset" onclick="functionAnnulla(); return false"><h5 style="color: #D2678E;">Annulla</h5></button>
+        </div>
+    </div>
   </form>
+</div>
+  
+--> 
+<!--
+  <div>
+    <h2 class="text-center mt-5 text-white">IL TUO BIGLIETTO</h2>
+   </div>
+   <div class="container" style="background-color: white;">
+        <h4>DETTAGLIO PASSEGGERI</h4>
+        <div class="pb-2">
+        <table class="table border border-2 border-top-dark border-bottom-dark">
+            <thead>
+              <tr class="">
+                <th scope="col" class="border border-0 bg-secondary" ><h5>NOME PASSEGGERO</h5></th>
+                <th scope="col" class="border border-0">Offerta</th>
+                <th scope="col" class="border border-0">Carrozza</th>
+                <th scope="col" class="border border-0">Codice CP</th>
+                <th scope="col" class="border border-0">Costo biglietto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="">
+                <th scope="row" class="border border-0 bg-secondary" class="Annulla" id="outputName"></th>
+                <td class="border border-0"></td>
+                <td class="border border-0"></td>
+                <td class="border border-0"></td>
+              </tr>
+              <tr class="">
+                <th scope="row" class="border border-0 bg-secondary"></th>
+                <td class="border border-0">Biglietto standard</td>
+                <td class="border border-0" id="carrozza"></td>
+                <td class="border border-0" id="numeroCp">    </td>
+                <td id="prezzo" class="border border-0 "></td>
+              </tr>
+              
+            </tbody>
+          </table>
 
-
-
-
-
-
+    </div>
+   </div>
 
 </body>
+-->
 
-<!--
+
+<!--      METODO DUE  -->
+
   <body class="bgBody" style="background-color: #B91450;">
 
     <h1 class="text-center text-white mt-2">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
@@ -109,7 +182,7 @@
    </div>
   
   </form>
---> 
+
     <script type="text/javascript" src="./javascript/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
